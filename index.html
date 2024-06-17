@@ -1,143 +1,390 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Multimedia</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+<body>
     <header>
-        <nav class="navbar margin">
-            <div class="left">
-                <div class="logo">
-                    <img src="images/Logo_CUSC_Multimedia-8.png" alt="">
+        <div class="groupheader" style="display: flex;">
+            <img src="images/logo.png" id="logo" alt="Logo">
+            <div class="container">
+                <div class="banner">TRANG CHỦ <div class="line"></div>
+                </div>
+                <div class="banner" id="service">
+                    <div>
+                        DỊCH VỤ
+                        <i class="fas fa-angle-down" style="margin-left: 6px;"></i>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="banner">CÁC DỰ ÁN <div class="line"></div>
+                </div>
+                <div class="banner">VỀ CHÚNG TÔI <div class="line"></div>
+                </div>
+                <div class="banner">LIÊN HỆ <div class="line"></div>
+                </div>
+                <div id="iconsearch"><img src="images/icon_search.svg" id="Search" alt="Search"></div>
+                <div id="formsearch">
+                    <div class="groupsearch">
+                        <input type="search" placeholder="Search any keyword" id="contentsearch">
+                        <img src="images/icon_search.svg" id="thugon" alt="Search">
+                    </div>
                 </div>
             </div>
-            <div class="right">
-                <div>Trang chủ</div>
-                <div>Dịch vụ <i class="fa fa-angle-down"></i></div>
-                <div>Các dự án</div>
-                <div>Về chúng tôi</div>
-                <div>Liên hệ</div>
-                <div>
-                    <img src="images/icon_search.svg" alt="">
-                </div>
+        </div>
+        <div class="MenuService " id="menu">
+            <div class="formMenu" style="height: 40px;  margin-top: 24px; margin-bottom: 10px;">
+                <i class="fa-solid fa-play" style="color: #1f64a5; font-size: 29px;"></i>
+                <button class="Service">Phát triển trò chơi điện tử (Game Graphic Design)</button>
             </div>
-        </nav>
+            <div class="formMenu" style="height: 58px; margin-bottom: 11px;">
+                <i class="fa-solid fa-play" style="color: #1f64a5; font-size: 29px;"></i>
+                <button class="Service">Dịch vụ tiếp thị số, Thực tế ảo, Thực tế tăng cường (Digital Marketing, VR,
+                    AR)</button>
+            </div>
+            <div class="formMenu" style="height: 58px; margin-bottom: 11px;">
+                <i class="fa-solid fa-play" style="color: #1f64a5; font-size: 29px;"></i>
+                <button class="Service">Dịch vụ Sản xuất phim hoạt hình <br /> (2D and 3D Animation)</button>
+            </div>
+            <div class="formMenu" style="height: 39px; margin-bottom: 8px;">
+                <i class="fa-solid fa-play" style="color: #1f64a5; font-size: 29px;"></i>
+                <button class="Service">Dịch vụ Phát triển phim (Digital Filmmaking)</button>
+            </div>
+            <div class="formMenu" style="height: 39px; margin-bottom: 22px;">
+                <i class="fa-solid fa-play" style="color: #1f64a5; font-size: 29px;"></i>
+                <button class="Service">Dịch vụ Thiết kế 2D (Graphic Design)</button>
+            </div>
+        </div>
     </header>
     <main>
-        <div class="page-home margin" style="margin-top: 94px;">
-            <div class="left-home">
-                <p class="service-name">Dịch vụ phát triển nội dung số</p>
-                <p class="website-name">CUSC Multimedia</p>
-                <p class="content">CUSC Multimedia được xây dựng trên nền tảng hơn 23 năm hình thành và phát 
-                    triển của Trung tâm Công nghệ Phần mềm Đại học Cần Thơ (CUSC) với mục tiêu 
-                    nghiên cứu và phát triển nội dung số, cùng đội ngũ các chuyên gia tâm huyết 
-                    và dày dặn kinh nghiệm.</p>
-                <div>
-                    <button class="more">
-                        <span class="text">Tìm hiểu thêm</span>
-                    </button>
-                    
+        <div class="MainBody">
+            <div class="content">
+                <div class="Title">
+                    Dịch vụ phát triển nội dung số
+                </div>
+                <div class="nameservice">
+                    CUSC MULTIMEDIA
+                </div>
+                <div class="Description">
+                    <p>CUSC Multimedia được xây dựng trên nền tảng hơn 23 năm hình thành và phát triển của Trung tâm
+                        Công nghệ Phần mềm Đại học Cần Thơ (CUSC) với mục tiêu nghiên cứu và phát triển nội dung số,
+                        cùng đội ngũ các chuyên gia tâm huyết và dày dặn kinh nghiệm.</p>
+                </div>
+                <button class="more">
+                    <span class="text">Tìm hiểu thêm</span>
+                </button>
+                <div class="slogan">
+                    <span
+                        style="font-size: 42px; color: #E4BD90; font-weight: bold; font-style: italic; height: 52px; width: 18px;  margin-right: 8px;">"</span>
+                    <span id="slg">
+                        Nâng tầm thương hiệu, Chuyển đổi số hiệu quả
+                    </span>
+                    <span
+                        style="font-size: 42px; color: #E4BD90; font-weight: bold; font-style: italic; height: 52px; width: 18px;  margin-left: 8px;">"</span>
                 </div>
             </div>
-            <div class="right-home">
-                <div class="images">
-                    
-                    <a href="https://helpdesk.cusc.vn/tour360/">
-                        <img src="images/baotang-all.png" alt="">
-                    </a>
+            <div class="MoTaDuAn">
+                <div class="AnhMinhHoa">
+                    <img src="images/banner/1.png" alt="Ảnh minh họa" id="img1">
                 </div>
-
-                <div>
-                    <p class="museum-project">Dự án Bảo tàng ảo</p>
-                    <p class="place">Quân khu 9 - Thành phố Cần Thơ</p>
+                <div class="chitiet">
+                    <div class="details">
+                        <div id="btn"
+                            style="height: 48px; width: 200px; margin-right: 30px; margin-bottom: 29px; border-radius: 10px;">
+                            <button id="detail">Xem chi tiết</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="TenDuAn">
+                    <span id="projectName1" style="font-size: 24px; font-weight: bold; color: #1F64A5;">Dự án Bảo tàng
+                        ảo</span><br />
+                    <span id="projectName2" style="font-size: 32px; font-weight: bold; color: #1F64A5;">Quân khu 9 -
+                        Thành phố Cần Thơ</span>
+                </div>
+                <div class="buttonBanner">
+                    <button class="btnbanner" id="1"></button>
+                    <button class="btnbanner" id="2"></button>
                 </div>
             </div>
-            <div class="slogan">
-                <span style="font-size: 42px; color: #E4BD90; font-weight: bold; font-style: italic; height: 52px; width: 18px;  margin-right: 8px;">"</span>
-                <span id="slg">
-                    Nâng tầm thương hiệu, Chuyển đổi số hiệu quả
-                </span>
-                <span style="font-size: 42px; color: #E4BD90; font-weight: bold; font-style: italic; height: 52px; width: 18px;  margin-left: 8px;">"</span>
-            </div>
-            
         </div>
+        <hr />
 
 
-        <div class="page page-service">
-                <div class="service-me">
-                    <p class="service-provide">Chúng tôi cung cấp các dịch vụ</p>
+        <div class="page-service page">
+            <div class="service-me">
+                <p class="service-provide">Chúng tôi cung cấp các dịch vụ</p>
+            </div>
+
+            <div class=" service">
+                <div class=" card game-graphic-design" onclick="detail()">
+                    <img id="game-graphic-design"
+                        src="images/Thumbnail 5 Dịch vụ/CUSC_Multimedia_Dich_vu_3D_Game_Design.jpg" alt="">
+                    <div class="box-shadow">
+                        <p class="service-name">
+                            GAME GRAPHIC DESIGN <br>
+                            Phát triển trò chơi điện tử
+                        </p>
+                    </div>
                 </div>
-                
-                <div class=" service">
-                    <div class=" card">
-                        <img src="images/Thumbnail 5 Dịch vụ/CUSC_Multimedia_Dich_vu_3D_Game_Design.jpg" alt="">
-                        <div class="box-shadow">                        
-                            <p class="service-name">
-                                GAME GRAPHIC DESIGN <br>
-                                Phát triển trò chơi điện tử 
-                            </p>
-                        </div>
+                <div class=" card digital-marketing">
+                    <img id="digital-marketing"
+                        src="images/Thumbnail 5 Dịch vụ/CUSC_Multimedia_VR_AR_360_Digital_Marketing.jpg" alt="">
+                    <div class="box-shadow">
+                        <p class="service-name vr">
+                            DIGITAL MARKETING, VR, AR<br>
+                            Tiếp thị số, Thực tế ảo, Thực tế tăng cường
+                        </p>
                     </div>
-                    <div class=" card">
-                        <img src="images/Thumbnail 5 Dịch vụ/CUSC_Multimedia_VR_AR_360_Digital_Marketing.jpg" alt="">
-                        <div class="box-shadow">
-                            <p class="service-name vr" >
-                                DIGITAL MARKETING, VR, AR<br>
-                                Tiếp thị số, Thực tế ảo, Thực tế tăng cường
-                            </p>
-                        </div>
+                </div>
+                <div class=" card 2d-3d-animation">
+                    <img id="2d-3d-animation"
+                        src="images/Thumbnail 5 Dịch vụ/CUSC_Multimedia_Dich_vu_2D_3D_Animation.jpg" alt="">
+                    <div class="box-shadow">
+                        <p class="service-name">
+                            2D AND 3D ANIMATION <br>
+                            Sản xuất phim hoạt hình
+                        </p>
                     </div>
-                    <div class=" card">
-                        <img src="images/Thumbnail 5 Dịch vụ/CUSC_Multimedia_Dich_vu_2D_3D_Animation.jpg" alt="">
-                        <div class="box-shadow">
-                            <p class="service-name">
-                                2D AND 3D ANIMATION <br>
-                                Sản xuất phim hoạt hình
-                            </p>
-                        </div>
+                </div>
+                <div class=" card digital-filmaking ">
+                    <img id="digital-filmaking"
+                        src="images/Thumbnail 5 Dịch vụ/CUSC_Multimedia_Dich_vu_Phat_Trien_Phim_Video_TVC.jpg" alt="">
+                    <div class="box-shadow">
+                        <p class="service-name">
+                            DIGITAL FILMAKING <br>
+                            Phát triển phim
+                        </p>
                     </div>
-                    <div class=" card">
-                        <img src="images/Thumbnail 5 Dịch vụ/CUSC_Multimedia_Dich_vu_Phat_Trien_Phim_Video_TVC.jpg" alt="">
-                        <div class="box-shadow">
-                            <p class="service-name">
-                                DIGITAL FILMAKING <br>
-                                Phát triển phim
-                            </p>
-                        </div>
+                </div>
+                <div class=" card graphic-design">
+                    <img id="graphic-design"
+                        src="images/Thumbnail 5 Dịch vụ/CUSC_Multimedia_2D_Design_Graphic_Design.jpg" alt="">
+                    <div class="box-shadow">
+                        <p class="service-name">
+                            GRAPHIC DESIGN <br>
+                            Dịch vụ Thiết kế 2D
+                        </p>
                     </div>
-                    <div class=" card">
-                        <img src="images/Thumbnail 5 Dịch vụ/CUSC_Multimedia_2D_Design_Graphic_Design.jpg" alt="">
-                        <div class="box-shadow">
-                            <p class="service-name">
-                                GRAPHIC DESIGN <br>
-                                Dịch vụ Thiết kế 2D
-                            </p>
-                        </div>
-                    </div>
-                    
                 </div>
 
+            </div>
+            <div class="all-services">
                 <div>
                     <p class="text-service">
-                        Nulla a quam vel ante lacinia tempus id in dolor. Donec accumsan orci sit amet 
-                        sapien consequat, eu sollicitudin lacus pulvinar. Maecenas laoreet feugiat justo 
-                        quis rhoncus. Duis malesuada fringilla orci id ornare. Mauris iaculis nulla nisl, 
+                        Nulla a quam vel ante lacinia tempus id in dolor. Donec accumsan orci sit amet
+                        sapien consequat, eu sollicitudin lacus pulvinar. Maecenas laoreet feugiat justo
+                        quis rhoncus. Duis malesuada fringilla orci id ornare. Mauris iaculis nulla nisl,
                         ac sodales tellus pellentesque a.
                     </p>
                 </div>
                 <div class="contact-button">
                     <p class="contact-text">Liên hệ nhận báo giá</p>
                 </div>
+            </div>
+
+
 
         </div>
-      
+
+
+
+        <div class="GioiThieu page">
+            <div class="detailGioiThieu">
+                <div class="titleGioiThieu">
+                    Giới thiệu về chúng tôi
+                </div>
+                <div class="chitietContent">
+                    <div class="CUSU">
+                        <img src="images/intro/CUSC_Multimedia_HinhTrungTamCUSC_Thumbnail.jpg" alt="CUSC"
+                            style="height: 300px; width: 700px; border-radius: 20px;">
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <div class="titleChitiet">
+                            CUSC
+                        </div>
+                        <div class="noidung">
+                            <p>Trung tâm Công nghệ Phần mềm Đại học Cần Thơ (CUSC) là một cơ sở giáo dục và nghiên cứu
+                                hàng đầu trong lĩnh vực Công nghệ thông tin tại Đồng bằng sông Cửu Long. Với mục tiêu
+                                định hướng và phát triển nhân lực Công nghệ thông tin chất lượng cao CUSC đã từng bước
+                                xây dựng một nền tảng mạnh mẽ cho giảng dạy, nghiên cứu và phát triển nội dung số (CUSC
+                                Multimedia).</p>
+                            <p>Các hoạt động của Trung tâm luôn luôn tuân thủ Tiêu chuẩn Quốc tế ISO 9001:2015, ISO
+                                27001:2022, nhằm đảm bảo chất lượng đạt chuẩn của quốc gia và mang tầm quốc tế.</p>
+                        </div>
+                    </div>
+                    <div class="Multimedia">
+                        <img src="images/intro/CUSC_Multimedia_Anhbia_Thumbnail.jpg" alt="Multimedia"
+                            style="height: 300px; width: 700px; border-radius: 20px;">
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <div class="titleChitiet">
+                            CUSC Multimedia
+                        </div>
+                        <div class="noidung">
+                            <p>Dịch vụ phát triển Nội dung số - CUSC Multimedia được xây dựng trên nền tảng hơn 23 năm
+                                hình thành và phát triển của CUSC, với đội ngũ các chuyên gia tâm huyết và dày dặn kinh
+                                nghiệm về Thiết kế đồ họa, Đồ họa chuyển động Animation, Nhiếp ảnh và sản xuất phim,
+                                Digital Marketing, Thiết kế dựng hình 3D, Trí tuệ nhân tạo,...</p>
+                            <p>Đồng hành cùng sứ mệnh Chuyển đổi số của Việt Nam và xu hướng toàn cầu, CUSC Multimedia
+                                là đối tác tin cậy của các cơ quan nhà nước, doanh nghiệp và đối tác quốc tế.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="production-team-page page">
+            <div class="production-team">
+                <h1 style="color: #1f64a5;">Đội ngũ sản xuất</h1>
+                <p style="padding: 2% 15%;">Nulla a quam vel ante lacinia tempus id in dolor. Donec accumsan orci sit
+                    amet
+                    sapien consequat, eu sollicitudin lacus pulvinar. Maecenas laoreet feugiat justo quis rhoncus. Duis
+                    malesuada fringilla orci id ornare. Mauris ¡aculis nulla nisl, ac
+                    sodales tellus pellentesque a.</p>
+                <div class="team-container">
+                    <button class="prev">&#10094;</button>
+                    <div class="team-slider-container">
+                        <div class="team-slider">
+                            <div class="team-member" onclick="openModal(0)">
+                                <img src="images/Đội ngũ sản xuất/CUSC_Multimedia_CuVinhLoc.JPG" alt="Member 1">
+                            </div>
+                            <div class="team-member" onclick="openModal(1)">
+                                <img src="images/Đội ngũ sản xuất/CUSC_Multimedia_HuynhTrucMai.jpg" alt="Member 2">
+                            </div>
+                            <div class="team-member" onclick="openModal(2)">
+                                <img src="images/Đội ngũ sản xuất/CUSC_Multimedia_LeHoangThao.JPG" alt="Member 3">
+                            </div>
+                            <div class="team-member" onclick="openModal(3)">
+                                <img src="images/Đội ngũ sản xuất/CUSC_Multimedia_NguyenHoangViet.JPG" alt="Member 4">
+                            </div>
+                            <div class="team-member" onclick="openModal(4)">
+                                <img src="images/Đội ngũ sản xuất/CUSC_Multimedia_NguyenTrungKien.JPG" alt="Member 5">
+                            </div>
+                            <div class="team-member" onclick="openModal(5)">
+                                <img src="images/Đội ngũ sản xuất/CUSC_Multimedia_TrinhThiNgocTram.JPG" alt="Member 6">
+                            </div>
+                            <div class="team-member" onclick="openModal(6)">
+                                <img src="images/Đội ngũ sản xuất/CUSC_Multimedia_TruongXuanViet.JPG" alt="Member 7">
+                            </div>
+                            <div class="team-member" onclick="openModal(7)">
+                                <img src="images/Đội ngũ sản xuất/CUSC_Multimedia_VoDuyAnh.JPG" alt="Member 8">
+                            </div>
+                            <div class="team-member" onclick="openModal(8)">
+                                <img src="images/Đội ngũ sản xuất/CUSC_Multimedia_VoMinhThuy.JPG" alt="Member 9">
+                            </div>
+                        </div>
+                    </div>
+                    <button class="next">&#10095;</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-page ">
+
+
+            <div class="contact-container">
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.7964516167776!2d105.7761965737648!3d10.033648972457428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a0881f9a732075%3A0xfa43fbeb2b00ca73!2sCUSC%20-%20Cantho%20University%20Software%20Center!5e0!3m2!1svi!2s!4v1718159438733!5m2!1svi!2s"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="blue-overlay"></div>
+                <div class="form-container">
+                    <h2>Liên hệ với chúng tôi</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Danh xưng</label>
+                            <input type="text" id="name" name="name" placeholder="Nguyễn Văn A">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="company">Đến từ</label>
+                            <input type="text" id="company" name="company" placeholder="Đơn vị/ Công ty/ Doanh Nghiệp">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Số điện thoại</label>
+                            <input type="tel" id="phone" name="phone" placeholder="09x.xxx.xxxx">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="example@gmail.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Lời nhắn</label>
+                            <input type="email" id="email" name="email" placeholder="Dịch vụ bạn quan tâm">
+                        </div>
+
+                        <button style="font-size: 18px;padding: 15px 30px;border-radius:10px;" type="submit">Gửi thông tin <i class='fas fa-angle-double-right'></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="map-button-container">
+                    <button style="font-size:24px" class="map-button">Xem trên Google Maps
+                        <i class='fas fa-map-marked-alt'></i>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
 
     </main>
-    <footer>
 
+    <!-- Modal for member details -->
+    <div id="memberModal" class="modal">
+        <div class="modal-bg"></div>
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="memberDetails" class="member-details">
+                <!-- Member details will be dynamically inserted here -->
+            </div>
+        </div>
+    </div>
+    
+
+    <footer>
+        <div class="footer-container">
+            <h2>Trung Tâm Công Nghệ Phần Mềm Đại Học Cần Thơ</h2>
+            <h3>Dịch Vụ Phát Triển Nội Dung Số</h3>
+            <div class="footer-info">
+                <p><i class='fas fa-map-marker-alt'></i> Số 1, Lý Tự Trọng, Ninh Kiều, Cần Thơ</p>
+                <p><i class="far fa-envelope"></i> multimedia@cusc.ctu.edu.vn</p>
+                <p><i class="fas fa-phone-alt"></i> 0292. 383 5581</p>
+            </div>
+            <hr style="margin:10px auto ; height:1px;border-width:0;color:rgb(59, 30, 221);background-color:rgb(8, 4, 236)">
+            <div class="footer-social">
+                <a href="#"><i class='fab fa-facebook-square'></i></a>
+                <a href="#"><i class='fab fa-facebook-messenger'></i></a>
+                <a href="#"><i class='fab fa-instagram'></i></a>
+                <a href="#"><i class='fab fa-youtube-square'></i></a>
+            </div>
+            <p>Copyright © 2024 CUSC Multimedia</p>
+        </div>
     </footer>
+    <script src="play.js"></script>
+    <script src="script.js"></script>
+
+
 </body>
+
 </html>
