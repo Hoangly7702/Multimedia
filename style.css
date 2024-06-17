@@ -24,7 +24,7 @@
 }
 
 
-*{
+* {
     font-family: Montserrat, sans-serif;
 }
 
@@ -739,12 +739,12 @@ p {
 
 .production-team-page {
     font-family: Montserrat;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
     /* background-color: #f0f0f0; */
-  
+
     /* height: 100vh; */
     margin: auto;
 
@@ -759,16 +759,16 @@ p {
     /* box-shadow: 0 0 10px rgba(26, 12, 223, 0.1); */
     /* border-radius: 10px; */
     /* height: 1080px; */
-    
+
 
 }
 
-.production-team h1{
+.production-team h1 {
     font-size: 48px;
     font-weight: bold;
 }
 
-.production-team p{
+.production-team p {
     font: normal normal normal 18px/22px Montserrat;
 }
 
@@ -984,7 +984,7 @@ p {
 
 .contact-page {
     font-family: Arial, sans-serif;
-    
+
     padding: 0;
     box-sizing: border-box;
     background-color: #fff;
@@ -998,7 +998,7 @@ p {
     margin: 40px auto;
     border-radius: 20px;
     overflow: hidden;
-    
+
 
 }
 
@@ -1050,10 +1050,11 @@ p {
     color: #1f64a5;
     border: none;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     display: flex;
     align-items: center;
+    font-size:24px
 
 }
 
@@ -1063,15 +1064,16 @@ p {
 }
 
 .form-container {
+
     position: relative;
     z-index: 2;
     background-color: #fff;
-    padding: 40px;
+    padding: 50px 40px;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin: 40px 20px;
+    margin: 70px 20px;
     max-width: 650px;
-    height: 550px;
+    /* height: 550px; */
     margin-left: auto;
     /* Align form to the right */
     transform: translateX(-7%);
@@ -1098,13 +1100,12 @@ p {
 }
 
 .form-container label {
-    font: normal normal bold 18px/22px Montserrat;    
+    font: normal normal bold 18px/22px Montserrat;
     margin-right: 15px;
     color: #1f64a5;
     min-width: 120px;
     text-align: right;
     font-weight: bold;
-
 }
 
 .form-container input {
@@ -1114,6 +1115,8 @@ p {
     border-bottom: 1px solid #1f64a5;
     outline: none;
     box-sizing: border-box;
+    font-size: 18px;
+
 }
 
 /*.form-container textarea {
@@ -1146,6 +1149,7 @@ p {
 .map-button:hover {
     background-image: linear-gradient(to right, #1f64a5, rgb(79, 183, 243));
     color: #fff;
+
 }
 
 footer {
